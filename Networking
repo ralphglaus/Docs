@@ -1,0 +1,30 @@
+VLANs einrichten
+
+VLAN 25
+VLAN 30
+
+VLANs anzeigen
+
+show vlan
+
+
+
+
+VLAN an Port zuweisen
+
+interface rante ge1/0/14-24
+swtischport mode access
+switchport access vlan 25
+exit
+
+Inter VLAN routing
+
+Interface vlan25
+  ip address 192.168.25.0 255.255.255.0
+exit
+
+Trunk einrichten
+
+switchport mode access trunk 
+
+oder switchport mode access trunk
