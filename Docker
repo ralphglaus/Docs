@@ -1,0 +1,19 @@
+Docker Befehle
+
+Docker Installieren (Ubuntu Pakcet Repository):
+
+sudo apt update
+sudo apt install docker.io
+
+Docker Installation über Dockerwebsite:
+
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+
+Docker Status überprüfen
+
+sudo systemctl status docker
+
+
+
+
